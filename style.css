@@ -71,12 +71,12 @@ h2:hover{
 
 /*USED IN JS*/
 .cross{
-   background-image: url(./cross.png);
+   background-image: url(cross.png);
 
 }
 
 .circle{
-   background-image: url(./circle.png);
+   background-image: url(circle.png);
 
 }
 
