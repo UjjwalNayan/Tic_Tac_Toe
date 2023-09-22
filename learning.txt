@@ -1,0 +1,33 @@
+1) 1rem=16px;
+2) nekocalc.com : Convert pixels to rem
+
+3) :root is for depicting that the underlying attributes gonna apply for the whole html
+
+4)--bg-green:linear-gradient(
+    90deg,
+    rgb(113, 43, 163) 0%,
+    rgb(163, 93, 206) 100%
+ );
+Here, 0% means to the left of the screen and 100% means to the right of the screen.
+
+5) If there's a checkmark  below wat the pretties, that means it's formatted correctly.
+
+6) flex-wrap: wrap; //IF there's no space the, the items get  wrapped vertically, basically making it kind of resposnsive.
+
+7) Giving any container like div or body a height is necessary to let the flex work like align items: center, without specifying height it won't work.
+
+8) Select the text want to copy and Shift+alt+down for copying it down
+
+9)  <script src="script.js" defer></script> //Using defer, first html elements will be loaded then only script will load. Using defer, we can write script tag in the head tag itself.
+
+10)background-size: cover;  //Let's the image be the size of the container and not bigger than that.
+
+11) If we add position:absolute, then that element will havae nothing to do with other elements on the page.
+
+12) input[type="submit"]{
+    
+}   //Targeting only the submit button
+
+13) @media(max-width:1100px){
+    
+ } //This means that, if the screen size is less than 1100px then media aquery properties will be applied.
