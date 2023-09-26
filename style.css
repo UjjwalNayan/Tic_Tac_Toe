@@ -210,7 +210,16 @@ input[type="submit"]{
         width: 80%;
     }
 
-    input{
-        width: 10rem;
+     #modal__content > h2{
+        font-size: 1.5rem;
+        padding: 2px;
     }
+
+    input{
+        width: 6rem;
+    }
+
+    input[type="submit"] {
+        font-size: 10px; 
+       }
 }
