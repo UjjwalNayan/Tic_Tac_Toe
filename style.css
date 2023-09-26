@@ -217,6 +217,9 @@ input[type="submit"]{
     }
 
     input{
+        margin: 0.25rem;
+        font-size: 1rem;
+        padding: 2px;
         width: 6rem;
     }
 
