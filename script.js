@@ -94,6 +94,11 @@ function checkForWin() {
       const winner = hasCross ? players.playerOne : players.playerTwo;  //This means if has cross is true and thus return the respective result of player
       winner.wins += 1;
       updateScores();
+      // Highlight the winning line
+      line.forEach((square) => {
+        square.style.backgroundColor= "rgb(130, 237, 88)";
+        //square.classList.add("win-line");
+      });
       playerWon();
       return;
     }
@@ -155,6 +160,7 @@ function restartGame() {  //To initially start the game without the delay of set
 function reset() {
   allSquares.forEach((square) => {
     square.classList = "grid__square";
+     square.style.backgroundColor= "white";
   });
   addSquareClick();
   playerHasWon = false;
